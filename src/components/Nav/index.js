@@ -5,7 +5,6 @@ function Nav () {
     return (
 <section> 
         <header className="header">
-            <img src={heroPhoto} style={{ width: "100%" }} alt="empty mountain coastline"/>
             <h1>Abigail Queen</h1>
             <h3>Teamwork, adaptability, performance</h3>
             <nav>
