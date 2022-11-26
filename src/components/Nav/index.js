@@ -13,15 +13,9 @@ function Nav () {
             <div className="col-8">
                 <nav className="nav">
                     <ul>
-                        <li>
-                            <a href="#about">About me</a>
-                        </li>
-                        <li>
-                            <a href="#work">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
+                        <li>About me</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
                         <li>
                             <a href="https://drive.google.com/file/d/1o-eO67x3Mb3exlK_D9LFarj_NivBnDNv/view?usp=sharing" target="_blank">Resume</a>
                         </li>

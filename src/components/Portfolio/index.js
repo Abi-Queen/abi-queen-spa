@@ -5,12 +5,26 @@ function Portfolio () {
         <section className="container">
             <div className="row">
                 <div className="col-6 project" id="project1">
-                    <h2>Project 1 Name</h2>
-                    <h4>Description</h4>
+                    <h2>
+                        <span><a href="https://abi-queen.github.io/Coding-Quiz/">Coding Quiz </a></span>
+                        <span>
+                            <a href="https://github.com/Abi-Queen/Coding-Quiz">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </span>
+                    </h2>
+                    <h4>HTML, CSS, JavaScript</h4>
                 </div>
                 <div className="col-6 project" id="project2">
-                    <h2>Project 2 Name</h2>
-                    <h4>Description</h4>
+                    <h2>
+                        <span><a href="https://github.com/Abi-Queen/engineers">Team Builder </a></span>
+                        <span>
+                            <a href="https://github.com/Abi-Queen/engineers">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </span>
+                    </h2>
+                    <h4>Node, Jest, OOP, TDD</h4>
                 </div>
             </div>
             <div className="row">
