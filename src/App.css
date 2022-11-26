@@ -153,6 +153,10 @@ header nav ul li a:hover {
   font-weight: bold;
 }
 
+nav li {
+  cursor: pointer;
+}
+
 .about {
   padding: 20px
 }
@@ -189,4 +193,41 @@ header nav ul li a:hover {
 
 #project6 {
   background-image: url('assets/images/shop-ss.jpg')
+}
+
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--primary);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+  width: 600px;
+  height: 120px;
+  border: 3px solid black;
+  padding: 5px;
+}
+
+button {
+  background: var(--primary);
+  border: 0;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
 }
