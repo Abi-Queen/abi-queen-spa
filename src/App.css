@@ -160,3 +160,33 @@ header nav ul li a:hover {
 #about {
   padding-bottom: 10px
 }
+
+.project {
+  height: 400px;
+  background-size: cover;
+  display: flex
+}
+
+#project1 {
+  background-image: url('assets/images/coding-quiz-screenshot.jpg')
+}
+
+#project2 {
+  background-image: url('assets/images/ss-smart-homies2.jpg')
+}
+
+#project3 {
+  background-image: url('assets/images/wildfire-screenshot.jpg')
+}
+
+#project4 {
+  background-image: url('assets/images/employeedb-ss.jpg')
+}
+
+#project5 {
+  background-image: url('assets/images/team-ss.jpg')
+}
+
+#project6 {
+  background-image: url('assets/images/shop-ss.jpg')
+}
