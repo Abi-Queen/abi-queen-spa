@@ -75,6 +75,7 @@ header {
   flex-wrap: wrap;
   position: sticky; 
   top: 0;
+  border-bottom: solid 3px black
 }
 
 header h1 {
@@ -102,32 +103,8 @@ header nav {
 .header img {
     float: left center; 
     position: relative;
-    border: 2px solid var(--tertiary-color);
-    border-radius: 25px
-}
-
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-
-header nav ul li a {
-  padding: 10px 15px;
-  font-weight: lighter;
-  font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
-}
-
-header nav ul li a:hover {
-  background: var(--tertiary-color);
-  color: var(--fourth-color);
-  border-radius: 15px;
-  border: 1px solid var(--fourth-color);
-  text-shadow: none;
-  font-weight: bold;
+    border: 5px solid var(--secondary-color);
+    border-radius: 15px
 }
 
 .nav ul {
@@ -155,6 +132,9 @@ header nav ul li a:hover {
 
 nav li {
   cursor: pointer;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: bold
 }
 
 .about {
