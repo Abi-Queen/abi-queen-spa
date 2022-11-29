@@ -1,4 +1,5 @@
 import React from 'react'
+// import resumeBackground from '../../assets/images/south-fog.jpg'
 
 function Resume () {
   return (
@@ -7,8 +8,8 @@ function Resume () {
             <div className="row">
                 <h2><a href="https://drive.google.com/file/d/1o-eO67x3Mb3exlK_D9LFarj_NivBnDNv/view?usp=sharing" target="_blank">View my resume here</a></h2>
             </div>
-            <div className="row">
-                <div className="col">
+            <div className="row d-flex align-items-end">
+                <div className="col d-flex justify-content-end">
                     <h2>Proficiencies</h2>
                     <h3>Front end</h3>
                     <ul>

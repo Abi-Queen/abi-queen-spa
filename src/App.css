@@ -139,8 +139,9 @@ nav ul li a:hover {
 .about {
   padding: 20px;
   background-color: var(--primary-color);
+  background-image: radial-gradient(#dae5ea, #b4fce6e0, #3b3f40);
   text-align: center;
-  text-align: justify;
+  text-align: justify
 }
 
 .about h1 {
@@ -152,52 +153,49 @@ nav ul li a:hover {
   padding: 20px 50px
 }
 
-
 .project {
   height: 400px;
   background-size: cover;
   display: flex
 }
 
-#project1 {
-  background-image: url('assets/images/coding-quiz-screenshot.jpg')
+.card-title a {
+  background: grey;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px
 }
 
-#project2 {
-  background-image: url('assets/images/ss-smart-homies2.jpg')
+#portfolio, #resume, #contact {
+  background-color: var(--primary-color);
+  background-image: radial-gradient(#dae5ea, #b4fce6e0, #3b3f40)
 }
 
-#project3 {
-  background-image: url('assets/images/wildfire-screenshot.jpg')
-}
-
-#project4 {
-  background-image: url('assets/images/employeedb-ss.jpg')
-}
-
-#project5 {
-  background-image: url('assets/images/team-ss.jpg')
-}
-
-#project6 {
-  background-image: url('assets/images/shop-ss.jpg')
+#resume {
+    background-image: url('assets/images/south-fog.jpg');
+    background-size: cover;
+    display: flex;
+    background-position: 80%
 }
 
 form {
   width: 40%;
+  border: 1px solid black
 }
 
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
+  border: 1px solid black;
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
 }
 
 input:focus {
-  border: 1px solid var(--primary);
+  border: 1px solid black;
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
@@ -218,4 +216,14 @@ button {
   font-weight: 600;
   margin-bottom: 30px;
   padding: 10px 15px;
+}
+
+.card-body {
+  margin: 5px;
+  text-align: center;
+  text-decoration: none
+}
+
+.col {
+  border: solid 3px black;
 }
