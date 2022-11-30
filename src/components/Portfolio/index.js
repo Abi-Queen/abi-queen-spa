@@ -16,12 +16,12 @@ function Portfolio () {
                     <div className="card">
                         <div className="card-header">
                             <h2 className="card-title">
-                                <a href="https://drive.google.com/file/d/1N6tmbxjLtrDPPkPcvb1f79KTqvoa9Rt5/view">Project 1 Title</a>
+                                <a href="https://drive.google.com/file/d/1N6tmbxjLtrDPPkPcvb1f79KTqvoa9Rt5/view">Employee Database</a>
                                 <a href="https://github.com/Abi-Queen/Employee-Manager-DB">
                             <FaGithub /></a>
                             </h2>
                             <h5 className="card-text">
-                                NySQL, Node, JavaScript
+                                MySQL, Node, JavaScript
                             </h5>
                         </div>
                         <div className="card-body">
@@ -33,48 +33,12 @@ function Portfolio () {
                     <div className="card">
                         <div className="card-header">
                             <h2 className="card-title">
-                                <a href="https://drive.google.com/file/d/1N6tmbxjLtrDPPkPcvb1f79KTqvoa9Rt5/view">Project 1 Title</a>
-                                <a href="https://github.com/Abi-Queen/Employee-Manager-DB">
-                            <FaGithub /></a>
+                                <a href="https://nverhulp.github.io/wildfire-app/">California Wildfire Readiness App</a>
+                                <a href="https://github.com/nverhulp/wildfire-app">
+                                <FaGithub /></a>
                             </h2>
                             <h5 className="card-text">
-                                NySQL, Node, JavaScript
-                            </h5>
-                        </div>
-                        <div className="card-body">
-                            <img className="card-img" src={empDBSS} alt="screenshot of user input to database"></img>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col d-flex justify-content-around">
-                    <div className="card">
-                        <div className="card-header">
-                            <h2 className="card-title">
-                                <a href="https://drive.google.com/file/d/1N6tmbxjLtrDPPkPcvb1f79KTqvoa9Rt5/view">Project 1 Title</a>
-                                <a href="https://github.com/Abi-Queen/Employee-Manager-DB">
-                            <FaGithub /></a>
-                            </h2>
-                            <h5 className="card-text">
-                                NySQL, Node, JavaScript
-                            </h5>
-                        </div>
-                        <div className="card-body">
-                            <img className="card-img" src={empDBSS} alt="screenshot of user input to database"></img>
-                        </div>
-                    </div>
-                </div>
-                <div className="col d-flex justify-content-around">
-                    <div className="card">
-                        <div className="card-header">
-                            <h2 className="card-title">
-                                <a href="https://drive.google.com/file/d/1N6tmbxjLtrDPPkPcvb1f79KTqvoa9Rt5/view">Project 1 Title</a>
-                                <a href="https://github.com/Abi-Queen/Employee-Manager-DB">
-                            <FaGithub /></a>
-                            </h2>
-                            <h5 className="card-text">
-                                NySQL, Node, JavaScript
+                                HTML, CSS, JavaScript
                             </h5>
                         </div>
                         <div className="card-body">
@@ -88,16 +52,16 @@ function Portfolio () {
                     <div className="card">
                         <div className="card-header">
                             <h2 className="card-title">
-                                <a href="https://drive.google.com/file/d/1N6tmbxjLtrDPPkPcvb1f79KTqvoa9Rt5/view">Project 1 Title</a>
-                                <a href="https://github.com/Abi-Queen/Employee-Manager-DB">
-                            <FaGithub /></a>
+                                <a href="https://drive.google.com/file/d/1N6tmbxjLtrDPPkPcvb1f79KTqvoa9Rt5/view">Gist: Email Regex Tutorial</a>
+                                <a href="https://drive.google.com/file/d/1N6tmbxjLtrDPPkPcvb1f79KTqvoa9Rt5/view">
+                                <FaGithub /></a>
                             </h2>
                             <h5 className="card-text">
-                                NySQL, Node, JavaScript
+                                JavaScript
                             </h5>
                         </div>
                         <div className="card-body">
-                            <img className="card-img" src={empDBSS} alt="screenshot of user input to database"></img>
+                            <img className="card-img" src={regexSS} alt="screenshot of tutorial"></img>
                         </div>
                     </div>
                 </div>
@@ -105,12 +69,48 @@ function Portfolio () {
                     <div className="card">
                         <div className="card-header">
                             <h2 className="card-title">
-                                <a href="https://drive.google.com/file/d/1N6tmbxjLtrDPPkPcvb1f79KTqvoa9Rt5/view">Project 1 Title</a>
-                                <a href="https://github.com/Abi-Queen/Employee-Manager-DB">
+                                <a href="https://abi-queen.github.io/Coding-Quiz/">Coding Quiz</a>
+                                <a href="https://github.com/Abi-Queen/Coding-Quiz">
+                                <FaGithub /></a>
+                            </h2>
+                            <h5 className="card-text">
+                                HTML, CSS, JavaScript
+                            </h5>
+                        </div>
+                        <div className="card-body">
+                            <img className="card-img" src={quizSS} alt="screenshot of multiple choice question"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col d-flex justify-content-around">
+                    <div className="card">
+                        <div className="card-header">
+                            <h2 className="card-title">
+                                <a href="https://youtu.be/Ru98SC457gA">Social Network API</a>
+                                <a href="https://github.com/Abi-Queen/social-network-API">
+                                <FaGithub /></a>
+                            </h2>
+                            <h5 className="card-text">
+                                MongoDB, Mongoose, Express, Node
+                            </h5>
+                        </div>
+                        <div className="card-body">
+                            <img className="card-img" src={wildfireSS} alt="screenshot of user input to database"></img>
+                        </div>
+                    </div>
+                </div>
+                <div className="col d-flex justify-content-around">
+                    <div className="card">
+                        <div className="card-header">
+                            <h2 className="card-title">
+                                <a href="https://youtu.be/ut7UswYo3GU">HTML Generator, OOP</a>
+                                <a href="https://github.com/Abi-Queen/engineers">
                             <FaGithub /></a>
                             </h2>
                             <h5 className="card-text">
-                                NySQL, Node, JavaScript
+                                HTML, CSS, JavaScript, Node, Jest
                             </h5>
                         </div>
                         <div className="card-body">
