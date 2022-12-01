@@ -232,26 +232,14 @@ nav ul li a:hover {
 
 /* CONTACT STYLES START */
 
-#contact {
-  display: flex;
-  display: block;
-  margin: auto;
-}
-
 #contact-form {
 display: flex-row;
-padding-left: 10%;
 padding: 10px
-}
-
-form {
-  width: 40%;
 }
 
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
 }
@@ -265,19 +253,18 @@ textarea {
   width: 600px;
   height: 120px;
   border: 3px solid black;
+  border-radius: 3px;
   padding: 5px;
 }
 
 button {
-  background: var(--primary);
-  border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
   color: black;
   background-color: grey;
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  padding: 10px 15px;
+  font-weight: bold;
+  padding: 10px;
 }
 
 /* CONTACT STYLES END */
