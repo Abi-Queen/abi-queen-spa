@@ -10,7 +10,7 @@ function Resume () {
                 <a href="https://drive.google.com/file/d/1o-eO67x3Mb3exlK_D9LFarj_NivBnDNv/view?usp=sharing" target="_blank">View my resume here</a>
             </p>
             <h3>Proficiencies</h3>
-            <table class="table">
+            <table class="table table-borderless">
                 <thead>
                     <tr>
                     <th scope="col">Front End</th>

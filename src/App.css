@@ -288,7 +288,9 @@ button {
 
 #resume h3 {
   padding: 10px;
-  text-decoration: underline
+  text-decoration: underline;
+  margin-top: 40px;
+  color: black
 }
 
 #resume-link a {
@@ -306,7 +308,11 @@ button {
   background-color: var(--secondary-color)
 }
 
-/* RESUME STYLES START */
+td {
+  padding: 5px
+}
+
+/* RESUME STYLES END */
 
 /* FOOTER STYLES START */
 
@@ -335,3 +341,5 @@ footer {
   font-weight: bold;
   color: #039166e0;
 }
+
+/* FOOTER STYLES END */
