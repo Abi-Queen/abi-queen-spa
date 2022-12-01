@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/abi-queen-spa/static/css/main.6ef5ca31.css",
+    "main.js": "/abi-queen-spa/static/js/main.fd68c7fd.js",
+    "static/js/787.7f83617b.chunk.js": "/abi-queen-spa/static/js/787.7f83617b.chunk.js",
+    "static/media/hero.jpg": "/abi-queen-spa/static/media/hero.5d926dde6f1d83d0ac19.jpg",
+    "static/media/employeedb-ss.jpg": "/abi-queen-spa/static/media/employeedb-ss.70a0c265993c27281862.jpg",
+    "static/media/regex-ss.jpg": "/abi-queen-spa/static/media/regex-ss.907d2e01bdf31d1b119e.jpg",
+    "static/media/wildfire-screenshot.jpg": "/abi-queen-spa/static/media/wildfire-screenshot.93ad3774186746f54f8e.jpg",
+    "static/media/social-network-ss.jpg": "/abi-queen-spa/static/media/social-network-ss.46f215afbd553716131e.jpg",
+    "static/media/team-ss.jpg": "/abi-queen-spa/static/media/team-ss.910a4cff2abf7eb5df0d.jpg",
+    "static/media/photo.jpg": "/abi-queen-spa/static/media/photo.aaa875d4affc4883b099.jpg",
+    "static/media/coding-quiz-screenshot.jpg": "/abi-queen-spa/static/media/coding-quiz-screenshot.b6280e01e68a05b77ad7.jpg",
+    "index.html": "/abi-queen-spa/index.html",
+    "main.6ef5ca31.css.map": "/abi-queen-spa/static/css/main.6ef5ca31.css.map",
+    "main.fd68c7fd.js.map": "/abi-queen-spa/static/js/main.fd68c7fd.js.map",
+    "787.7f83617b.chunk.js.map": "/abi-queen-spa/static/js/787.7f83617b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ef5ca31.css",
+    "static/js/main.fd68c7fd.js"
+  ]
+}
