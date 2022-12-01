@@ -12,6 +12,7 @@ function ContactForm () {
         e.preventDefault()
         if (!errorMessage) {
             console.log('Submit form', formState)
+            setErrorMessage('Thanks! I look forward to chatting with you.')
         }
     }
 
@@ -25,7 +26,7 @@ function ContactForm () {
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`)
+                setErrorMessage(`Please enter ${e.target.name}.`)
             } else {
                 setErrorMessage('')
             }

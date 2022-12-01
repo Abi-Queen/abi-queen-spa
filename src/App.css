@@ -200,6 +200,12 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
+.card-title a:hover {
+  text-shadow: 0 0 10px white;
+  font-weight: bold;
+  color: rgb(59, 59, 59)
+}
+
 .card-text {
   font-style: italic;
   font-size: 14px;
@@ -224,21 +230,27 @@ nav ul li a:hover {
 
 /* PORTFOLIO STYLES END */
 
-/* RESUME STYLES START */
-
-/* RESUME STYLES END */
-
 /* CONTACT STYLES START */
+
+#contact {
+  display: flex;
+  display: block;
+  margin: auto;
+}
+
+#contact-form {
+display: flex-row;
+padding-left: 10%;
+padding: 10px
+}
 
 form {
   width: 40%;
-  border: 1px solid black
 }
 
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid black;
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
@@ -258,9 +270,9 @@ textarea {
 
 button {
   background: var(--primary);
-  border: 0;
   border-radius: 5px;
   color: black;
+  background-color: grey;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -268,7 +280,48 @@ button {
   padding: 10px 15px;
 }
 
+/* CONTACT STYLES END */
 
+/* RESUME STYLES START */
+
+#resume {
+  align-items: center;
+  padding: 15px
+}
+
+#resume-list {
+  text-align: center;
+  align-items: center;
+  padding-left: 40%
+}
+
+#resume h1 {
+  padding: 15px
+}
+
+#resume h3 {
+  padding: 10px;
+  text-decoration: underline
+}
+
+#resume-link a {
+  color: white;
+  text-decoration: none;
+  background-color: var(--tertiary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  padding: 10px
+}
+
+#resume-link a:hover {
+  text-shadow: 0 0 10px white;
+  font-weight: bold;
+  background-color: var(--secondary-color)
+}
+
+/* RESUME STYLES START */
+
+/* FOOTER STYLES START */
 
 footer {
   background-color: var(--fourth-color);
