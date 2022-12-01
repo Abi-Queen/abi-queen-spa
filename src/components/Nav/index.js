@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import profilePhoto from '../../assets/images/photo.jpg'
 
 function Nav (props) {
@@ -22,17 +23,17 @@ function Nav (props) {
                 <nav>
                     <ul>
                         <li>
-                            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>About me</a>
+                            <Link to="about" onClick={() => setContactSelected(false)}>About me</Link>
                         </li>
                         <li>
-                            <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}>Projects</a>
+                            <Link to="portfolio" onClick={() => setContactSelected(false)}>Projects</Link>
                         </li>
                         <li className={`${contactSelected && 'navActive'}`}>
                             <span onClick={() => setContactSelected(true)}>Contact</span>
                         </li>
                         <li
                         className={`${!contactSelected && 'navActive'}`}>
-                            <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>Resume</a>
+                            <Link to="resume" onClick={() => setContactSelected(false)}>Resume</Link>
                         </li>
                     </ul>
                 </nav>
