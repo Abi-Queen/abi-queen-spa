@@ -105,7 +105,7 @@ function Portfolio () {
                     <div className="card">
                         <div className="card-header">
                             <h4 className="card-title">
-                                <a href="https://youtu.be/ut7UswYo3GU">HTML Generator, OOP</a>
+                                <a href="https://youtu.be/ut7UswYo3GU">HTML Generator: OOP, TDD</a>
                                 <a href="https://github.com/Abi-Queen/engineers">
                             <FaGithub /></a>
                             </h4>

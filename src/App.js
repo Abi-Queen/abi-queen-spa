@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Nav from './components/Nav'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
@@ -11,24 +12,29 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false)
 
   return (
-    <div className="App">
-      <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-        <main>
-          {!contactSelected ? (
-            <>
-              <About></About>
-              <Portfolio></Portfolio>
-              <Resume></Resume>
-            </>
-          ) : (
-            <ContactForm></ContactForm>
-          )}
-        </main>
-      <Footer></Footer>
-    </div>
+    <Router>
+      <div className="App">
+        <Nav
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
+        ></Nav>
+          <main>
+            {!contactSelected ? (
+              <>
+                <Routes>
+                  <Route path='/About' element={<About />} />
+                  <Route path='/Portfolio' element={<Portfolio />} />
+                  <Route path= '/Resume' element={<Resume /> } />
+                  <Route path= '*' element={<About />} />
+                </Routes>
+              </>
+            ) : (
+              <ContactForm></ContactForm>
+            )}
+          </main>
+        <Footer></Footer>
+      </div>
+    </Router>
   )
 }
 
