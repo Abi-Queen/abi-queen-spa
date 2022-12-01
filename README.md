@@ -4,7 +4,7 @@
 ## Description
 This portfolio project uses React to create a Single Page Application portfolio displaying information about me, my projects, resume, and a form for getting in touch. It was built with React and Bootstrap. 
 
-Please explore the [delopyed app here](https://abi-queen.github.io/abi-queen-spa/). Thank you for visiting! 
+Please explore the [delopyed app here](http://abi-queen.github.io/abi-queen-spa). Thank you for visiting! 
 
 ## GitHub
 Here is the [GitHub repo](https://github.com/Abi-Queen/abi-queen-spa). 
