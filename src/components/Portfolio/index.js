@@ -11,6 +11,7 @@ import socialSS from '../../assets/images/social-network-ss.jpg'
 function Portfolio () { 
     return (
         <section className="container project-grid">
+            <h2>A sample of my projects</h2>
             <div className="row project-row">
                 <div className="col-md-6 mb-3 d-flex justify-content-around">
                         <div className="card">

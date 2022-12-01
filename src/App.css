@@ -216,6 +216,10 @@ nav ul li a:hover {
   border-bottom: 4px solid black
 }
 
+.project-grid h2 {
+  color: var(--primary-color)
+}
+
 .card-body {
   margin: 5px;
   text-align: center;
