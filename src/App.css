@@ -56,6 +56,12 @@ body {
   background-color: var(--fourth-color);
 }
 
+#resume, #contact {
+  background-color: var(--primary-color);
+  background-image: radial-gradient(#dae5ea, #b4fce6e0, #3b3f40);
+}
+
+/* HEADER STYLES START */
 header {
   height: 400px;
   background-image: url('assets/images/hero.jpg');
@@ -63,8 +69,6 @@ header {
   display: flex;
   background-position: 80%
 }
-
-/* HEADER / NAV BAR STYLES START */
 
 header {
   padding: 20px 35px;
@@ -83,6 +87,7 @@ header h1 {
   font-size: 36px;
   color: black;
   text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  text-align: left
 }
 
 header h1 a:hover {
@@ -106,15 +111,20 @@ header nav {
 
 header h3 {
   padding-top: 20px;
-  padding-bottom: 5px
+  padding-bottom: 5px;
+  text-align: left
 }
 
 header img {
-    float: left center; 
-    position: relative;
-    border: 5px solid var(--secondary-color);
-    border-radius: 15px
+  float: left; 
+  position: relative;
+  border: 5px solid var(--secondary-color);
+  border-radius: 15px;
 }
+
+/* HEADER STYLES END */
+
+/* NAV STYLES START */
 
 nav ul {
   display: flex;
@@ -137,12 +147,17 @@ nav ul li a:hover {
   color: rgb(59, 59, 59)
 }
 
+/* NAV STYLES END */
+
+/* ABOUT STYLES BEGIN */
+
 .about {
   padding: 20px;
   background-color: var(--primary-color);
-  background-image: radial-gradient(#dae5ea, #b4fce6e0);
+  background-image: radial-gradient(#dedfe0, #707070e0);
   text-align: center;
-  text-align: justify
+  text-align: justify;
+  border-bottom: solid 4px black
 }
 
 .about h1 {
@@ -154,10 +169,18 @@ nav ul li a:hover {
   padding: 20px 50px
 }
 
+/* ABOUT STYLES END */
+
+/* PORTFOLIO STYLES BEGIN */
+
 .project {
   height: 400px;
   background-size: cover;
   display: flex
+}
+
+.card {
+  border: 3px solid black
 }
 
 .card-header {
@@ -183,17 +206,29 @@ nav ul li a:hover {
   text-align: right
 }
 
-#portfolio, #resume, #contact {
-  background-color: var(--primary-color);
-  background-image: radial-gradient(#dae5ea, #b4fce6e0, #3b3f40)
+.col .row {
+  align-items: center
 }
 
-#resume {
-    background-image: url('assets/images/south-fog.jpg');
-    background-size: cover;
-    display: flex;
-    background-position: 80%
+.project-grid {
+  background-color: var(--tertiary-color);
+  padding: 20px;
+  border-bottom: 4px solid black
 }
+
+.card-body {
+  margin: 5px;
+  text-align: center;
+  text-decoration: none
+}
+
+/* PORTFOLIO STYLES END */
+
+/* RESUME STYLES START */
+
+/* RESUME STYLES END */
+
+/* CONTACT STYLES START */
 
 form {
   width: 40%;
@@ -233,12 +268,31 @@ button {
   padding: 10px 15px;
 }
 
-.card-body {
-  margin: 5px;
-  text-align: center;
-  text-decoration: none
+
+
+footer {
+  background-color: var(--fourth-color);
+  color:rgb(59, 59, 59);
+  border: 2px solid var(--secondary-color)
 }
 
-.col {
-  border: solid 3px black;
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.footer ul li a {
+  padding: 10px 15px;
+  font-size: 40px;
+  text-decoration: none;
+  color: rgb(59, 59, 59)
+}
+
+.footer ul li a:hover {
+  font-weight: bold;
+  color: var(--primary-color);
+  background-color: var(--tertiary-color)
 }

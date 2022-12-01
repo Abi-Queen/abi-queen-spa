@@ -10,10 +10,10 @@ import socialSS from '../../assets/images/social-network-ss.jpg'
 
 function Portfolio () { 
     return (
-        <section className="container">
+        <section className="container project-grid">
             <div className="row">
-                <div className="col d-flex justify-content-around">
-                    <div className="card">
+                <div className="col-md-6 mb-3 d-flex justify-content-around">
+                        <div className="card">
                         <div className="card-header">
                             <h4 className="card-title">
                                 <a href="https://drive.google.com/file/d/1N6tmbxjLtrDPPkPcvb1f79KTqvoa9Rt5/view">Employee Database</a>
@@ -29,7 +29,7 @@ function Portfolio () {
                         </div>
                     </div>
                 </div>
-                <div className="col d-flex justify-content-around">
+                <div className="col-md-6 mb-3 d-flex justify-content-around">
                     <div className="card">
                         <div className="card-header">
                             <h4 className="card-title">
@@ -48,7 +48,7 @@ function Portfolio () {
                 </div>
             </div>
             <div className="row">
-                <div className="col d-flex justify-content-around">
+                <div className="col-md-6 mb-3 d-flex justify-content-around">
                     <div className="card">
                         <div className="card-header">
                             <h4 className="card-title">
@@ -65,7 +65,7 @@ function Portfolio () {
                         </div>
                     </div>
                 </div>
-                <div className="col d-flex justify-content-around">
+                <div className="col-md-6 mb-3 d-flex justify-content-around">
                     <div className="card">
                         <div className="card-header">
                             <h4 className="card-title">
@@ -84,7 +84,7 @@ function Portfolio () {
                 </div>
             </div>
             <div className="row">
-                <div className="col d-flex justify-content-around">
+                <div className="col-md-6 mb-3 d-flex justify-content-around">
                     <div className="card">
                         <div className="card-header">
                             <h4 className="card-title">
@@ -101,7 +101,7 @@ function Portfolio () {
                         </div>
                     </div>
                 </div>
-                <div className="col d-flex justify-content-around">
+                <div className="col-md-6 mb-3 d-flex justify-content-around">
                     <div className="card">
                         <div className="card-header">
                             <h4 className="card-title">
