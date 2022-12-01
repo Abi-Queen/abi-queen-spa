@@ -11,7 +11,7 @@ import socialSS from '../../assets/images/social-network-ss.jpg'
 function Portfolio () { 
     return (
         <section className="container project-grid">
-            <div className="row">
+            <div className="row project-row">
                 <div className="col-md-6 mb-3 d-flex justify-content-around">
                         <div className="card">
                         <div className="card-header">
@@ -47,7 +47,7 @@ function Portfolio () {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row project-row">
                 <div className="col-md-6 mb-3 d-flex justify-content-around">
                     <div className="card">
                         <div className="card-header">
@@ -83,7 +83,7 @@ function Portfolio () {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row project-row">
                 <div className="col-md-6 mb-3 d-flex justify-content-around">
                     <div className="card">
                         <div className="card-header">

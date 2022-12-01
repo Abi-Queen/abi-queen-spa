@@ -173,14 +173,8 @@ nav ul li a:hover {
 
 /* PORTFOLIO STYLES BEGIN */
 
-.project {
-  height: 400px;
-  background-size: cover;
-  display: flex
-}
-
 .card {
-  border: 3px solid black
+  border: 3px solid black;
 }
 
 .card-header {
@@ -226,6 +220,10 @@ nav ul li a:hover {
   margin: 5px;
   text-align: center;
   text-decoration: none
+}
+
+.project-row {
+  padding: 40px
 }
 
 /* PORTFOLIO STYLES END */
