@@ -333,6 +333,5 @@ footer {
 
 .footer ul li a:hover {
   font-weight: bold;
-  color: var(--primary-color);
-  background-color: var(--tertiary-color)
+  color: #039166e0;
 }
