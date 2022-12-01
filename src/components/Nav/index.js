@@ -13,7 +13,7 @@ function Nav (props) {
         <header className="header row">
             <div className="col-5">
                 <h1>
-                    <a data-testid="link" href="/">Abigail Queen
+                    <a data-testid="link" href="https://abi-queen.github.io/abi-queen-spa/">Abigail Queen
                     </a>
                 </h1>
                 <h3>Teamwork, performance, adaptability</h3>
