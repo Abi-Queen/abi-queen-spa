@@ -29,7 +29,7 @@ function Nav (props) {
                             <Link to="portfolio" onClick={() => setContactSelected(false)}>Projects</Link>
                         </li>
                         <li className={`${contactSelected && 'navActive'}`}>
-                            <span onClick={() => setContactSelected(true)}>Contact</span>
+                            <Link to="contact" onClick={() => setContactSelected(true)}>Contact</Link>
                         </li>
                         <li
                         className={`${!contactSelected && 'navActive'}`}>
