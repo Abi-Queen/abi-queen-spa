@@ -56,11 +56,6 @@ body {
   background-color: var(--fourth-color);
 }
 
-#resume, #contact {
-  background-color: var(--primary-color);
-  background-image: radial-gradient(#dae5ea, #b4fce6e0, #3b3f40);
-}
-
 /* HEADER STYLES START */
 header {
   height: 400px;
@@ -233,6 +228,10 @@ nav ul li a:hover {
 /* PORTFOLIO STYLES END */
 
 /* CONTACT STYLES START */
+#contact {
+  background-color: var(--primary-color);
+  background-image: radial-gradient(#dae5ea, #b4fce6e0, #3b3f40)
+}
 
 #contact-form {
 display: flex-row;
@@ -274,14 +273,16 @@ button {
 /* RESUME STYLES START */
 
 #resume {
-  align-items: center;
-  padding: 15px
+  /* align-items: center;
+  padding: 15px */
 }
 
 #resume-list {
-  text-align: center;
+  /* text-align: center;
   align-items: center;
-  padding-left: 40%
+  padding-left: 40%; */
+  background-color: var(--primary-color);
+  background-image: radial-gradient(#dae5ea, #b4fce6e0, #3b3f40)
 }
 
 #resume h1 {
@@ -295,11 +296,16 @@ button {
   color: black
 }
 
+#resume-link {
+  padding: 20px;
+}
+
 #resume-link a {
-  color: white;
+  color: var(--primary-color);
+  font-size: 16px;
   text-decoration: none;
-  background-color: var(--tertiary-color);
-  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  border: 2px solid var(--tertiary-color);
   border-radius: 15px;
   padding: 10px
 }
@@ -314,6 +320,17 @@ td {
   padding: 5px
 }
 
+.smile-list {
+  list-style: none;
+}
+
+.smile-list li {
+  padding: 10px
+}
+
+#resume-photo {
+  border: 3px solid var(--tertiary-color);
+}
 /* RESUME STYLES END */
 
 /* FOOTER STYLES START */
