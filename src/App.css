@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -72,7 +73,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: sticky; 
+  position: sticky;
   top: 0;
   border-bottom: solid 3px black
 }
@@ -111,7 +112,7 @@ header h3 {
 }
 
 header img {
-  float: left; 
+  float: left;
   position: relative;
   border: 5px solid var(--secondary-color);
   border-radius: 15px;
@@ -120,6 +121,9 @@ header img {
 /* HEADER STYLES END */
 
 /* NAV STYLES START */
+nav {
+  width: 100%
+}
 
 nav ul {
   display: flex;
@@ -184,7 +188,8 @@ nav ul li a:hover {
   background-image: radial-gradient(#b4fce6e0, #114032e0);
 }
 
-.card-title a, .card-text {
+.card-title a,
+.card-text {
   color: black;
   text-decoration: none;
 }
@@ -234,8 +239,8 @@ nav ul li a:hover {
 }
 
 #contact-form {
-display: flex-row;
-padding: 10px
+  display: flex-row;
+  padding: 10px
 }
 
 input {
@@ -272,20 +277,17 @@ button {
 
 /* RESUME STYLES START */
 
-#resume {
-  /* align-items: center;
-  padding: 15px */
-}
-
 #resume-list {
-  /* text-align: center;
-  align-items: center;
-  padding-left: 40%; */
   background-color: var(--primary-color);
   background-image: radial-gradient(#dae5ea, #b4fce6e0, #3b3f40);
   padding: 10px;
   margin-top: 20px;
-  color: black
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: top;
+  list-style: none
 }
 
 #resume h1 {
@@ -313,7 +315,9 @@ button {
 }
 
 td {
-  padding: 5px
+  padding: 5px;
+  border-right: solid grety 1px;
+  border-left: solid grey 1px
 }
 
 .smile-list {
@@ -327,13 +331,19 @@ td {
 #resume-photo {
   border: 3px solid var(--tertiary-color);
 }
+
+.books {
+  /* display: flex; */
+  border: solid black 1px
+}
+
 /* RESUME STYLES END */
 
 /* FOOTER STYLES START */
 
 footer {
   background-color: var(--fourth-color);
-  color:rgb(59, 59, 59);
+  color: rgb(59, 59, 59);
   border: 2px solid var(--secondary-color)
 }
 
