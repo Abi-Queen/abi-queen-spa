@@ -9,7 +9,7 @@ function Nav(props) {
     } = props
 
     return (
-        <nav className="container navbar navbar-expand-lg">
+        <nav className="container">
             <header className="header row">
                 <div className="col-5">
                     <h1>
