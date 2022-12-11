@@ -1,8 +1,8 @@
 import React from 'react'
 import plumTree from '../../assets/images/plum-tree.jpg'
-import bookSapiens from '../../assets/images/book-sapiens.jpg'
-import bookOn from '../../assets/images/book-on.jpg'
-import bookCrypt from '../../assets/images/book-crypt.jpg'
+// import bookSapiens from '../../assets/images/book-sapiens.jpg'
+// import bookOn from '../../assets/images/book-on.jpg'
+// import bookCrypt from '../../assets/images/book-crypt.jpg'
 
 
 function Resume() {
@@ -62,11 +62,11 @@ function Resume() {
                             <li>Teaching History at College of the Redwoods</li>
                             <li>My forest home</li>
                             <li>Running and working out</li>
-                            <li>Silliness: Satire, irony, word play not excluding puns</li>
+                            <li>Satire, irony, word play not excluding puns</li>
                         </ul>
-                        <p>Good books like:</p>
+                        {/* <p>Good books like:</p> */}
                     </div>
-                    <div className="row books">
+                    {/* <div className="row books">
                         <div className="row">
                             <div className="col-2-lg col-sm">
                                 <a href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari-ebook/dp/B00ICN066A/ref=sr_1_1?crid=1LCUS9FH1Z1QU&keywords=harari+sapiens&qid=1670684368&sprefix=harari+sapiens%2Caps%2C245&sr=8-1" target="_blank">
@@ -84,7 +84,7 @@ function Resume() {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
