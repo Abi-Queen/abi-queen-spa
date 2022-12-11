@@ -17,7 +17,7 @@ function Nav(props) {
                         </a>
                     </h1>
                     <h3>Teamwork, performance, adaptability</h3>
-                    <img src={profilePhoto} style={{ width: "30%" }} alt="Abi Queen profile" />
+                    <img src={profilePhoto} style={{ width: "30%" }} alt="inset: smiling face; background: remote coastal mountains of Humboldt County" />
                 </div>
                 <div className="col-7">
                     <nav>
