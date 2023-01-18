@@ -33,24 +33,24 @@ function Resume() {
                             <tr>
                                 <td>JavaScript</td>
                                 <td>MySQL, Sequelize</td>
-                                <td>Planning, Organization, Workflow</td>
+                                <td>Planning</td>
                             </tr>
                             <tr>
                                 <td>APIs</td>
                                 <td>MongoDB, Mongoose</td>
-                                <td> </td>
+                                <td>Organization</td>
                             </tr>
                             <tr>
                                 <td>React</td>
                                 <td>GraphQL, WebPack</td>
-                                <td> </td>
+                                <td>Workflow</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div className="col-3-lg col-sm resume-photo">
                     <h4 id="resume-link">
-                        <a href="https://drive.google.com/file/d/1o-eO67x3Mb3exlK_D9LFarj_NivBnDNv/view?usp=sharing" target="_blank">View Resume</a>
+                        <a href="https://drive.google.com/file/d/1y5Ulo7Ap42yWxGVd5jwYduy9DuC_selm/view?usp=sharing" target="_blank">View Resume</a>
                     </h4>
                     <img id="resume-photo" src={plumTree} style={{ width: "80%" }} alt="Abi and little son smiling from behind a tree trunk" />
                 </div>
@@ -59,7 +59,7 @@ function Resume() {
                     <div className="row">
                         <ul className="smile-list">
                             <li>My son and daughter</li>
-                            <li>Teaching History at College of the Redwoods</li>
+                            <li>Teaching history at College of the Redwoods</li>
                             <li>My forest home</li>
                             <li>Running and working out</li>
                             <li>Satire, irony, word play not excluding puns</li>

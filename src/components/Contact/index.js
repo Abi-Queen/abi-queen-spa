@@ -65,7 +65,7 @@ function ContactForm() {
         // </section>
         <section className="container" id="contact">
             <h1 data-testid="h1tag">Contact me</h1>
-            <div className="d-flex align-center">
+            <div className="d-flex justify-content-center">
                 <p>Get in touch: <a href='mailto:albqueen@gmail.com'>albqueen@gmail.com</a>. I look forward to chatting with you.</p>
             </div>
         </section>
